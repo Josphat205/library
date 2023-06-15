@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div>
       <ComplexNavbar />
-      <div className='flex md:flex-row flex-col flex-wrap gap-4 mt-10 w-full'>
+      <div className='flex md:flex-row flex-col flex-wrap gap-4 mt-10 w-full justify-center'>
        {books.map((book) => (
         <BookCard key={book._id} book={book} />
        )

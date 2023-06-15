@@ -20,7 +20,7 @@ const BookCard = ({book}) => {
     }
   };
   return (
-    <div className=" md:max-w-[350px] md:max-h-[200px] w-full h-full drop-shadow-full">
+    <div className=" md:max-w-[350px] mt-8 w-full h-full drop-shadow-full">
       <a href="#">
         <img
           className="rounded-t-lg w-64 h-48"
@@ -30,7 +30,7 @@ const BookCard = ({book}) => {
       </a>
       <div className="p-5">
         <a href="#">
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 className="mb-2 text-1xl font-bold tracking-tight text-gray-900 dark:text-white">
             {title}
           </h5>
         </a>
